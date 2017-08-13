@@ -11,9 +11,6 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ListaAlunosActivity">
 
-        </activity>
-        <activity android:name=".FormularioActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,6 +18,8 @@
             </intent-filter>
 
         </activity>
+        <activity android:name=".FormularioActivity" />
+
     </application>
 
 </manifest>
